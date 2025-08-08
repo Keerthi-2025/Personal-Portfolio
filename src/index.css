@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+* {
+  scroll-behavior: smooth;
+  scroll-margin-top: 50px;
+}
+
+@theme {
+  --main-color: #80db66;
+  --primary-color: #2d2e36;
+  --secondary-color: #e2ecf6;
+  --text-color: #b0aac0;
+  --meta-text-color: #9b9db1;
+  --section-bg: #212228;
+  --main-border: #474747;
+  --transparent-bg: rgba(0, 0, 0, 0.6);
+  --508: 508px;
+  --250: 250px;
+  --animate-zoom: zoom 5s linear infinite alternate;
+  --animate-rotate: rotate 5s linear infinite;
+}
+
+@layer components {
+  .outline-btn {
+    @apply border border-(--main-color) text-white rounded-sm py-2 px-7 font-semibold hover:bg-(--main-color) uppercase transition-all duration-300 ease-in hover:text-gray-800;
+  }
+
+  .transparent-header {
+    @apply absolute left-0 top-0 w-full z-20 py-5 md:px-20 px-10 transition duration-300 ease-in;
+  }
+
+  .sticky-menu {
+    @apply fixed top-0 left-0 w-full z-20 bg-(--primary-color) py-3 transition duration-300 ease-in;
+  }
+
+  .white-filled-btn {
+    @apply border border-transparent text-(--primary-color) bg-(--secondary-color) rounded-sm py-2 px-7 font-semibold cursor-pointer hover:bg-transparent hover:border-(--secondary-color) hover:text-(--secondary-color) uppercase transition-all duration-300 ease-in;
+  }
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
