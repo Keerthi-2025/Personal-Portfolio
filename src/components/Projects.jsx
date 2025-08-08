@@ -6,6 +6,7 @@ const projects = [
     title: "Portfolio Website",
     description:
       "A personal portfolio built with React.js and Tailwind CSS to showcase my skills, experience, and projects. Fully responsive with smooth animations.",
+    tech: ["React.js", "Tailwind CSS", "JavaScript"],
     github: "https://github.com/Keerthi-2025/portfolio",
     live: "https://keerthi-portfolio.netlify.app/",
   },
@@ -13,6 +14,7 @@ const projects = [
     title: "E-Commerce Web App",
     description:
       "Full-stack e-commerce application using Spring Boot, React, and MySQL. Includes product listings, shopping cart, order management, and payment integration.",
+    tech: ["Spring Boot", "React.js", "MySQL"],
     github: "https://github.com/Keerthi-2025/ecommerce-app",
     live: "https://myshop-demo.netlify.app/",
   },
@@ -20,6 +22,7 @@ const projects = [
     title: "Task Manager App",
     description:
       "A task management tool with authentication, CRUD operations, and real-time updates using WebSockets. Built with React, Node.js, and MongoDB.",
+    tech: ["React.js", "Node.js", "MongoDB"],
     github: "https://github.com/Keerthi-2025/task-manager",
     live: "https://taskmanager-demo.netlify.app/",
   },
@@ -30,7 +33,7 @@ const Projects = () => {
     <section id="projects" className="bg-black py-20 px-5 text-white relative">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <span className="text-lime-400 uppercase tracking-widest text-3xl font-semibold">
+          <span className="text-lime-400 tracking-widest text-3xl font-semibold">
             Projects
           </span>
         </div>
@@ -48,6 +51,18 @@ const Projects = () => {
                 <p className="text-gray-500 text-sm text-justify mb-6">
                   {project.description}
                 </p>
+
+                {/* Tech Stack */}
+                <div className="flex flex-wrap gap-2 mb-6">
+                  {project.tech.map((tech, index) => (
+                    <span
+                      key={index}
+                      className="bg-lime-700/20 border border-lime-400 text-lime-300 px-3 py-1 text-xs rounded-full font-medium"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
               </div>
 
               {/* Buttons */}
