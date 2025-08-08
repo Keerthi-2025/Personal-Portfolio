@@ -4,6 +4,8 @@ import { FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 const Contact = () => {
   return (
     <section id="contact" className="bg-black text-white py-20 px-6">
+
+      <h2 className="text-3xl text-lime-400 text-center font-bold">Contact Me</h2>
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
         
         {/* Left Side */}
@@ -33,8 +35,8 @@ const Contact = () => {
         </div>
 
         {/* Right Side - Contact Form */}
-        <div className="bg-zinc-900 p-6 rounded-lg shadow-lg">
-          <form className="flex flex-col gap-4">
+        <div className="bg-zinc-900 p-6 rounded-lg shadow-lg mt-10">
+          <form className="flex flex-col gap-4 ">
             <input
               type="text"
               placeholder="Your Name"
