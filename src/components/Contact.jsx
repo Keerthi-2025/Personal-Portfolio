@@ -22,7 +22,7 @@ const Contact = () => {
               href="mailto:keerthi@example.com"
               className="hover:text-lime-400 transition duration-300"
             >
-              keerthi@example.com
+              rhkirthi3@gmail.com
             </a>
           </div>
 
