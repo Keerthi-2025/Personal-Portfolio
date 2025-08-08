@@ -47,8 +47,8 @@ export default function Skills() {
   return (
     <section id="skills" className="bg-[#0f0f0f] text-white py-16 px-6">
       <div className="text-center mb-14">
-        <h2 className="text-4xl font-bold text-cyan-300 mb-4">Skills</h2>
-        <p className="text-gray-400 max-w-xl mx-auto text-md">
+        <h2 className="text-4xl font-bold text-lime-400 mb-4">Skills</h2>
+        <p className="text-lime-600 max-w-xl mx-auto text-md whitespace-nowrap">
           Technologies & tools I use regularly to build, design, and deliver robust applications.
         </p>
       </div>
@@ -61,11 +61,11 @@ export default function Skills() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: i * 0.1 }}
             viewport={{ once: true }}
-            className="bg-[#1c1c1e] rounded-xl border border-cyan-300 p-5 group hover:shadow-[0_0_15px_#a3e635] transition-all duration-300"
+            className="bg-[#1c1c1e] rounded-xl border border-lime-400 p-5 group hover:shadow-[0_0_15px_#a3e635] transition-all duration-300"
           >
             <div className="flex items-center space-x-4 mb-4">
               
-              <h3 className="text-xl font-semibold text-cyan-300 group-hover:text-cyan-400">
+              <h3 className="text-xl font-semibold text-lime-400 group-hover:text-lime-400">
                 {name}
               </h3>
             </div>

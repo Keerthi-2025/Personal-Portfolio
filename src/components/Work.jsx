@@ -3,7 +3,7 @@ import { FaChevronRight } from "react-icons/fa";
 
 const experiences = [
   {
-    companyLogo: "/assets/mbl.png", // Updated path
+    companyLogo: "https://media.licdn.com/dms/image/v2/D4E0BAQE8qS1z1_6dDw/company-logo_200_200/company-logo_200_200/0/1724828783802/mbl_technologies_pvt_ltd_logo?e=2147483647&v=beta&t=jVZV299j42lvyGMaYKcw4i6rJBosWvfXhA40fssehnc",
     title: "Software Developer Intern",
     company: "MBL Technologies Pvt Lmt, Hyderabad",
     duration: "April 2025 – July 2025",
@@ -23,7 +23,7 @@ const experiences = [
     ],
   },
   {
-    companyLogo: "/assets/glow.png", // Updated path
+    companyLogo: "https://nexttechtoday.com/wp-content/uploads/2024/11/UnifyCX-Launches-Redefining-Customer-Experience-Management.jpg", 
     title: "Junior Support Engineer",
     company: "GlowTouch Technologies Private Limited (Now UnifyCX)",
     duration: "Nov 2022 – June 2023",
@@ -69,15 +69,13 @@ const Work = () => {
                 <FaChevronRight />
               </div>
 
-              {/* Company logo inside circular frame */}
+              {/* Company logo without background */}
               <div className="flex justify-center mb-6">
-                <div className="w-20 h-20 rounded-full border-2 border-lime-400 bg-white flex items-center justify-center p-2">
-                  <img
-                    src={exp.companyLogo}
-                    alt={exp.company}
-                    className="w-full h-full object-contain"
-                  />
-                </div>
+                <img
+                  src={exp.companyLogo}
+                  alt={exp.company}
+                  className="w-20 h-20 rounded-full object-cover"
+                />
               </div>
 
               {/* Role and Company */}

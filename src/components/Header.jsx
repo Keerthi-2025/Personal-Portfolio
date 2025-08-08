@@ -7,7 +7,7 @@ const lists = [
   { key: "About", value: "#about" },
   { key: "Experience", value: "#experience" },
   { key: "Skills", value: "#skills" },
-  { key: "Testimonials", value: "#certifications" },
+  { key: "certifications", value: "#certifications" },
   { key: "Contact", value: "#contact" },
 ];
 
