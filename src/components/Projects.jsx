@@ -3,12 +3,11 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
-    title: "Portfolio Website",
-    description:
-      "A personal portfolio built with React.js and Tailwind CSS to showcase my skills, experience, and projects. Fully responsive with smooth animations.",
-    tech: ["React.js", "Tailwind CSS", "JavaScript"],
-    github: "https://github.com/Keerthi-2025/portfolio",
-    live: "https://keerthi-portfolio.netlify.app/",
+    title: "English to Tulu Language Translator",
+    description:"A machine learning-based English-to-Tulu translator built using KNN and TfidfVectorizer, trained on a custom-aligned dataset. Features a Streamlit-powered web app for easy translations of in-dataset vocabulary, hosted on Streamlit Cloud.",
+    tech: ["Python", "TfidfVectorizer", "AI ML", "Streamlit","G Collab"],
+    github: "https://github.com/Keerthi-2025/English_to_Tulu_Language_Translator",
+    live: "https://eng2tulu.streamlit.app/",
   },
   {
     title: "E-Commerce Web App",
