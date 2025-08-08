@@ -10,26 +10,24 @@ const projects = [
     live: "https://eng2tulu.streamlit.app/",
   },
   {
-    title: "E-Commerce Web App",
-    description:
-      "Full-stack e-commerce application using Spring Boot, React, and MySQL. Includes product listings, shopping cart, order management, and payment integration.",
-    tech: ["Spring Boot", "React.js", "MySQL"],
-    github: "https://github.com/Keerthi-2025/ecommerce-app",
-    live: "https://myshop-demo.netlify.app/",
+    title: "To-Do List",
+    description:"A simple To-Do List Web Application built using Spring Boot and HTML (Thymeleaf). This application allows users to create, update, and delete tasks in a clean and minimal interface.",
+    tech: ["Spring Boot", "Java", "Thymleaf","HTML","Bootsrap"],
+    github: "https://github.com/Keerthi-2025/todoapp",
+    live: "https://github.com/Keerthi-2025/todoapp",
   },
   {
     title: "Task Manager App",
-    description:
-      "A task management tool with authentication, CRUD operations, and real-time updates using WebSockets. Built with React, Node.js, and MongoDB.",
-    tech: ["React.js", "Node.js", "MongoDB"],
-    github: "https://github.com/Keerthi-2025/task-manager",
-    live: "https://taskmanager-demo.netlify.app/",
+    description:"This project focuses on detecting emotions from textual input and suggesting appropriate emojis to enhance communication. By leveraging machine learning techniques, it bridges the gap between emotional expression and textual communication.",
+    tech: ["Python", "Scikit-learn", "Streamlit","Altair"],
+    github: "https://github.com/Keerthi-2025/Emoji_Text_Detection_Application",
+    live: "https://emojidetection.streamlit.app/",
   },
 ];
 
 const Projects = () => {
   return (
-    <section id="projects" className="bg-black py-20 px-5 text-white relative">
+    <section id="projects" className="bg-black py-20 px-5 text-center text-white relative">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <span className="text-lime-400 tracking-widest text-3xl font-semibold">
