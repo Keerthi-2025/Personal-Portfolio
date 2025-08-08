@@ -51,7 +51,7 @@ const Work = () => {
     >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-6 bg-gradient-to-r from-lime-400 to-emerald-500 bg-clip-text text-transparent">
-          💼 Experience
+          Experience
         </h2>
         <p className="text-center text-gray-300 max-w-3xl mx-auto mb-16 text-lg">
           Building modern solutions, learning every day, and pushing limits with
