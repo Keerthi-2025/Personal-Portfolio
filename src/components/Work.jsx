@@ -1,9 +1,9 @@
 import React from "react";
-import { FaChevronRight } from "react-icons/fa"; // You can use any icon you prefer
+import { FaChevronRight } from "react-icons/fa";
 
 const experiences = [
   {
-    companyLogo: "/assets/avarthan-logo.png",
+    companyLogo: "/assets/mbl.png", // Updated path
     title: "Software Developer Intern",
     company: "MBL Technologies Pvt Lmt, Hyderabad",
     duration: "April 2025 – July 2025",
@@ -18,12 +18,12 @@ const experiences = [
       "Participated in Agile development processes, including code reviews and sprint planning.",
     ],
     tags: [
-      "Spring Boot", "Java", "Microservices", "React.js", "MySQL", 
-      "Tailwind CSS", "JavaScript", "REST API", "Postman", 
+      "Spring Boot", "Java", "Microservices", "React.js", "MySQL",
+      "Tailwind CSS", "JavaScript", "REST API", "Postman",
     ],
   },
   {
-    companyLogo: "/assets/unifycx-logo.png",
+    companyLogo: "/assets/glow.png", // Updated path
     title: "Junior Support Engineer",
     company: "GlowTouch Technologies Private Limited (Now UnifyCX)",
     duration: "Nov 2022 – June 2023",
@@ -46,7 +46,7 @@ const experiences = [
 const Work = () => {
   return (
     <section
-      id="works"
+      id="experience"
       className="bg-gradient-to-br from-black via-zinc-900 to-black text-white py-20 px-6"
     >
       <div className="max-w-6xl mx-auto">
@@ -69,13 +69,15 @@ const Work = () => {
                 <FaChevronRight />
               </div>
 
-              {/* Company logo */}
+              {/* Company logo inside circular frame */}
               <div className="flex justify-center mb-6">
-                <img
-                  src={exp.companyLogo}
-                  alt={exp.company}
-                  className="w-20 h-20 object-contain rounded-full border border-gray-500 hover:rotate-6 hover:scale-105 transition-transform duration-300"
-                />
+                <div className="w-20 h-20 rounded-full border-2 border-lime-400 bg-white flex items-center justify-center p-2">
+                  <img
+                    src={exp.companyLogo}
+                    alt={exp.company}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
               </div>
 
               {/* Role and Company */}

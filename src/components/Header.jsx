@@ -5,9 +5,9 @@ import { IoCloseOutline } from "react-icons/io5";
 const lists = [
   { key: "Home", value: "#" },
   { key: "About", value: "#about" },
-  { key: "Works", value: "#works" },
+  { key: "Experience", value: "#experience" },
   { key: "Skills", value: "#skills" },
-  { key: "Testimonials", value: "#testimonials" },
+  { key: "Testimonials", value: "#certifications" },
   { key: "Contact", value: "#contact" },
 ];
 

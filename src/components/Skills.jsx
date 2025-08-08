@@ -1,52 +1,78 @@
 import { motion } from "framer-motion";
-import springbootLogo from '<div styleName={} />skills/springboot.png';
 
 const skills = [
-  { name: "Spring Boot", logo: "/skills/springboot.png" },
-  { name: "React.js", logo: "/skills/react.png" },
-  { name: "MySQL", logo: "/skills/mysql.png" },
-  { name: "Postman", logo: "/skills/postman.png" },
-  { name: "HTML", logo: "/skills/html.png" },
-  { name: "CSS", logo: "/skills/css.png" },
-  { name: "Java", logo: "/skills/java.png" },
-  { name: "Python", logo: "/skills/py.jpeg" },
-  { name: "Streamlit", logo: "/skills/str.png" },
-  { name: "Git & GitHub", logo: "/skills/git.png" },
+  {
+    name: "Spring Boot",
+    description: "Robust backend framework for Java-based microservices.",
+  },
+  {
+    name: "React.js",
+    description: "Component-based UI library powered by a virtual DOM.",
+  },
+  {
+    name: "MySQL",
+    description: "Reliable relational database for structured data.",
+  },
+  {
+    name: "Postman",
+    description: "API testing and collaboration platform.",
+  },
+  {
+    name: "HTML",
+    description: "Markup standard for building web content.",
+  },
+  {
+    name: "CSS",
+    description: "Design styling language for the web.",
+  },
+  {
+    name: "Java",
+    description: "OOP language for scalable enterprise applications.",
+  },
+  {
+    name: "Python",
+    description: "Versatile language used in AI, scripting, and web dev.",
+  },
+  {
+    name: "Streamlit",
+    description: "Framework for building Python-based data apps fast.",
+  },
+  {
+    name: "Git & GitHub",
+    description: "Version control and team collaboration tools.",
+  },
 ];
 
-const Skills = () => {
+export default function Skills() {
   return (
-    <section id="skills" className="bg-black text-white py-20">
-      <h2 className="text-4xl text-center font-bold mb-10 text-lime-400">
-        Skills
-      </h2>
+    <section id="skills" className="bg-[#0f0f0f] text-white py-16 px-6">
+      <div className="text-center mb-14">
+        <h2 className="text-4xl font-bold text-cyan-300 mb-4">Skills</h2>
+        <p className="text-gray-400 max-w-xl mx-auto text-md">
+          Technologies & tools I use regularly to build, design, and deliver robust applications.
+        </p>
+      </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-10 justify-items-center px-4">
-        {skills.map((skill, i) => (
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 max-w-6xl mx-auto">
+        {skills.map(({ logo, name, description }, i) => (
           <motion.div
             key={i}
-            whileHover={{ scale: 1.1 }}
-            className="relative flex flex-col items-center"
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: i * 0.1 }}
+            viewport={{ once: true }}
+            className="bg-[#1c1c1e] rounded-xl border border-cyan-300 p-5 group hover:shadow-[0_0_15px_#a3e635] transition-all duration-300"
           >
-            <motion.div
-              animate={{ rotate: 360 }}
-              transition={{ repeat: Infinity, duration: 12, ease: "linear" }}
-              className="w-24 h-24 rounded-full border-4 border-lime-400 flex items-center justify-center p-2"
-            >
-              <img
-                src={skill.logo}
-                alt={skill.name}
-                width={48}
-                height={48}
-                className="object-contain"
-              />
-            </motion.div>
-            <p className="mt-4 text-lg font-medium text-center">{skill.name}</p>
+            <div className="flex items-center space-x-4 mb-4">
+              
+              <h3 className="text-xl font-semibold text-cyan-300 group-hover:text-cyan-400">
+                {name}
+              </h3>
+            </div>
+            <p className="text-gray-400 text-sm leading-relaxed">{description}</p>
           </motion.div>
         ))}
       </div>
     </section>
   );
-};
-
-export default Skills;
+}

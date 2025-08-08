@@ -1,75 +1,80 @@
-import React from "react";
-import { FaQuoteRight } from "react-icons/fa";
-import user1 from "../assets/user-1.png";
-import user2 from "../assets/user-2.png";
+import React, { useState } from "react";
 
-const Testimonal = () => {
+const certifications = [
+  {
+    title: "Full Stack Developer Internship",
+    description: "Successfully completed a Full Stack Developer internship at MBL Technologies,contributing to end-to-end feature development while demonstrating adaptability, problem-solving skills, and a strong learning mindset.",
+    image: "/certificates/cpt.png",
+  },
+  {
+    title: "Event Head – Infognite (IT Quiz), Joshiana 13.0",
+    description: "Organized and led a national-level IT quiz, overseeing question curation and team coordination. The event fostered collaboration and engaged participants from diverse backgrounds, strengthening my leadership, planning, and problem-solving skills.",
+    image: "",
+  },
+  {
+    title: "Postman API Fundamentals Student Expert certification",
+    description: "Earned the Postman API Fundamentals Student Expert certification, demonstrating proficiency in designing, documenting, testing, and sharing APIs using Postman, along with a solid understanding of API workflows and best practices.",
+    image: "/certificates/nutrition.png",
+  },
+];
+
+const Certifications = () => {
+  const [selectedCert, setSelectedCert] = useState(null);
+
   return (
-    <section className="bg-(--primary-color)" id="testimonials">
-      <div className="container px-5 py-24 mx-auto">
-        <div className="text-center">
-          <span className="uppercase text-(--main-color) text-xl tracking-[5px] mb-3 inline-block">
-            testimonials
+    <section id="certifications" className="bg-black py-20 px-5 text-white relative">
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-12">
+          <span className="text-violet-400 uppercase tracking-widest text-3xl font-semibold">
+            Certifications
           </span>
-          <h2 className="text-(--secondary-color) md:text-5xl text-4xl font-medium">
-            What People Say
-          </h2>
         </div>
-        <div className="flex flex-wrap mt-20">
-          <div className="p-4 md:w-1/2 w-full">
-            <div className="h-full bg-(--section-bg) p-8 rounded">
-              <FaQuoteRight className="block w-5 h-5 text-(--text-color) mb-4" />
-              <p className="leading-relaxed mb-6 text-lg text-(--text-color)">
-                Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                carry neutra before they sold out fixie 90's microdosing. Tacos
-                pinterest fanny pack venmo, post-ironic heirloom try-hard pabst
-                authentic iceland.
-              </p>
-              <a className="inline-flex items-center">
-                <img
-                  alt="user-1"
-                  src={user1}
-                  className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-                />
-                <span className="flex-grow flex flex-col pl-4">
-                  <span className="font-medium text-(--secondary-color)">
-                    Holden Caulfield
-                  </span>
-                  <span className="text-(--text-color) text-sm">
-                    UI DEVELOPER
-                  </span>
-                </span>
-              </a>
+
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {certifications.map((cert, i) => (
+            <div
+              key={i}
+              className="bg-zinc-900 border border-violet rounded-xl p-6 shadow-lg hover:shadow-red-600/40 transition-shadow duration-300"
+            >
+              <div className="flex items-center mb-4 text-red-400 text-2xl">
+                
+                <h3 className="text-xl font-semibold text-white">{cert.title}</h3>
+              </div>
+             
+              
+              <p className="text-gray-500 text-sm text-justify mb-4">{cert.description}</p>
+              <button
+                onClick={() => setSelectedCert(cert)}
+                className="bg-red-500  hover:bg-white hover:text-black text-sm font-semibold py-2 px-4 rounded-full transition duration-300"
+              >
+                View Certificate
+              </button>
             </div>
-          </div>
-          <div className="p-4 md:w-1/2 w-full">
-            <div className="h-full bg-(--section-bg) p-8 rounded">
-              <FaQuoteRight className="block w-5 h-5 text-(--text-color) mb-4" />
-              <p className="leading-relaxed mb-6 text-lg text-(--text-color)">
-                Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                carry neutra before they sold out fixie 90's microdosing. Tacos
-                pinterest fanny pack venmo, post-ironic heirloom try-hard pabst
-                authentic iceland.
-              </p>
-              <a className="inline-flex items-center">
-                <img
-                  alt="user-2"
-                  src={user2}
-                  className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-                />
-                <span className="flex-grow flex flex-col pl-4">
-                  <span className="title-font font-medium text-(--secondary-color)">
-                    Alper Kamu
-                  </span>
-                  <span className="text-(--text-color) text-sm">DESIGNER</span>
-                </span>
-              </a>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
+
+      {/* Modal */}
+      {selectedCert && (
+        <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
+          <div className="bg-white p-6 rounded-lg max-w-xl relative">
+            <button
+              onClick={() => setSelectedCert(null)}
+              className="absolute top-2 right-2 text-black text-xl font-bold"
+            >
+              ×
+            </button>
+            <h3 className="text-black text-xl font-bold mb-4">{selectedCert.title}</h3>
+            <img
+              src={selectedCert.image}
+              alt={selectedCert.title}
+              className="w-full rounded"
+            />
+          </div>
+        </div>
+      )}
     </section>
   );
 };
 
-export default Testimonal;
+export default Certifications;
