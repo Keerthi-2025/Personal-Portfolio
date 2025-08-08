@@ -8,7 +8,9 @@ const lists = [
   { key: "Experience", value: "#experience" },
   { key: "Skills", value: "#skills" },
   { key: "certifications", value: "#certifications" },
+  {key:  "Projects", value: "#projects"},
   { key: "Contact", value: "#contact" },
+  
 ];
 
 const Header = () => {

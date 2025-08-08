@@ -15,10 +15,15 @@ const certifications = [
   },
   {
     title: "Postman API Fundamentals Student Expert certification",
-    description:
-      "Earned the Postman API Fundamentals Student Expert certification, demonstrating proficiency in designing, documenting, testing, and sharing APIs using Postman, along with a solid understanding of API workflows and best practices.",
+    description: "Earned the Postman API Fundamentals Student Expert certification, demonstrating proficiency in designing, documenting, testing, and sharing APIs using Postman, along with a solid understanding of API workflows and best practices.",
     link: "https://drive.google.com/file/d/1DfovDl5tHBwqcPselJTJ1T-p4IyqQ5lx/view?usp=sharing",
   },
+
+  {
+    title:"AWS Unleashed: Hands-On Cloud Training ",
+    description:"Gained practical experience with AWS services including S3, Lambda, EC2, IAM, RDS, and VPS, along with AWS CLI. Learned to deploy, automate, and scale cloud applications efficiently.",
+    link:"https://drive.google.com/file/d/1RviFbL18oskiu7RcGQ__oA2UgzCvKCx9/view?usp=sharing"
+  }
 ];
 
 const Certifications = () => {
@@ -29,7 +34,7 @@ const Certifications = () => {
     >
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <span className="text-lime-400 uppercase tracking-widest text-3xl font-semibold">
+          <span className="text-lime-400  tracking-widest text-3xl font-semibold">
             Certifications
           </span>
         </div>
