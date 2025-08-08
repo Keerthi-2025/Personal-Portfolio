@@ -1,8 +1,15 @@
 @import "tailwindcss";
 
+/* Smooth scroll and top margin offset */
 * {
   scroll-behavior: smooth;
   scroll-margin-top: 50px;
+}
+
+/* Prevent horizontal scroll but allow vertical */
+html, body {
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 @theme {
