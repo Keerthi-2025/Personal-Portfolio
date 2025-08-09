@@ -1,6 +1,6 @@
 import React from "react";
 import background from "../assets/background.jpg";
-import userProfile from "../assets/prof1.png"; // Your original image
+import userProfile from "../assets/cv-bg.png"; // Your original image
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {

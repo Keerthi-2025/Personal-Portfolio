@@ -34,7 +34,7 @@ const Contact = () => {
     <section id="contact" className="bg-black text-white py-20 px-6">
       <h2 className="text-3xl text-lime-400 text-center font-bold">Contact Me</h2>
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
-        {/* Left Side */}
+        
         <div className="flex flex-col justify-center">
           <h2 className="text-3xl font-bold text-lime-400 mb-4">
             Get in Touch
@@ -60,7 +60,7 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Right Side - Contact Form */}
+        
         <div className="bg-zinc-900 p-6 rounded-lg shadow-lg mt-10">
           <form onSubmit={onSubmit} className="flex flex-col gap-4">
             <input
@@ -69,7 +69,7 @@ const Contact = () => {
               placeholder="Your Name"
               required
               className="p-3 rounded bg-black border border-gray-600 text-white focus:outline-none focus:border-lime-400"
-            />
+            /> 
             <input
               type="email"
               name="email"
@@ -98,3 +98,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
