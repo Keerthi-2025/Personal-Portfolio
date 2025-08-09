@@ -32,7 +32,6 @@ const Contact = () => {
 
   return (
     <section id="contact" className="bg-black text-white py-20 px-6">
-      <h2 className="text-3xl text-lime-400 text-center font-bold">Contact Me</h2>
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
         
         <div className="flex flex-col justify-center">
