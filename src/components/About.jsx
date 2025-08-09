@@ -35,7 +35,7 @@ const About = () => {
             About Me
           </span>
           <h2 className="text-(--secondary-color) md:text-6xl text-4xl my-5 text-center md:text-left">
-            I'm Java Full Stack developer
+            I'm Full Stack developer
           </h2>
         <h3>  <p className="text-(--text-color) leading-7 mb-10 text-center md:text-left">
           I'm a dedicated Java Full Stack Developer with a strong foundation in both frontend and backend development.

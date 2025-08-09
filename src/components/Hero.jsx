@@ -20,7 +20,7 @@ const Hero = () => {
             Keerthi RH
           </h1>
           <p className="mb-4 leading-8 text-gray-300">
-            I'm Java Full Stack Developer | SpringBoot | Postman | Java | MVC | MySQL
+            I'm Full Stack Developer 
           </p>
 
           {/* Social Links */}
