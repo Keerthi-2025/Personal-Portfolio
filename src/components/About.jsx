@@ -38,7 +38,7 @@ const About = () => {
             I'm Full Stack developer
           </h2>
         <h3>  <p className="text-(--text-color) leading-7 mb-10 text-center md:text-left">
-          I'm a dedicated Java Full Stack Developer with a strong foundation in both frontend and backend development.
+          I'm a dedicated  Full Stack Developer with a strong foundation in both frontend and backend development.
            I specialize in building modern, scalable web applications. I prioritize developing clean, scalable, and
             innovative codebases that drive user engagement and support long-term business success.
           </p></h3>
