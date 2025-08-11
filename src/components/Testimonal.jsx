@@ -5,7 +5,7 @@ const certifications = [
     title: "Full Stack Developer Internship",
     description:
       "Successfully completed a Full Stack Developer internship at MBL Technologies, contributing to end-to-end feature development while demonstrating adaptability, problem-solving skills, and a strong learning mindset.",
-    link: "https://drive.google.com/file/d/your_link_id_1/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1eysmZMaQLtQcmoFjWrZL7xOLcFqvOHgN/view?usp=sharing",
   },
   {
     title: "Event Head – Infognite (IT Quiz), Joshiana 13.0",
