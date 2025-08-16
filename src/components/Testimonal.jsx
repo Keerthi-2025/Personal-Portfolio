@@ -23,6 +23,11 @@ const certifications = [
     title:"AWS Unleashed: Hands-On Cloud Training ",
     description:"Gained practical experience with AWS services including S3, Lambda, EC2, IAM, RDS, and VPS, along with AWS CLI. Learned to deploy, automate, and scale cloud applications efficiently.",
     link:"https://drive.google.com/file/d/1RviFbL18oskiu7RcGQ__oA2UgzCvKCx9/view?usp=sharing"
+  },
+  {
+    title:"Agile Project Management By HP ",
+    description:"Gained practical experience with AWS services including S3, Lambda, EC2, IAM, RDS, and VPS, along with AWS CLI. Learned to deploy, automate, and scale cloud applications efficiently.",
+    link:"https://drive.google.com/file/d/1A9KTsbwEe-EsZfntZgRTyaSr2NsBsZlq/view?usp=drive_link"
   }
 ];
 
