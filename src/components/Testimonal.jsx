@@ -26,7 +26,7 @@ const certifications = [
   },
   {
     title:"Agile Project Management By HP ",
-    description:"Gained practical experience with AWS services including S3, Lambda, EC2, IAM, RDS, and VPS, along with AWS CLI. Learned to deploy, automate, and scale cloud applications efficiently.",
+    description:"Gained hands-on knowledge in iterative & incremental development, and applying Agile frameworks like Scrum and Kanban to enhance project execution and teamwork.",
     link:"https://drive.google.com/file/d/1A9KTsbwEe-EsZfntZgRTyaSr2NsBsZlq/view?usp=drive_link"
   }
 ];
