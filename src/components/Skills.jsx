@@ -10,6 +10,10 @@ const skills = [
     description: "Component-based UI library powered by a virtual DOM.",
   },
   {
+    name:"C#",
+    description:"A modern, object-oriented programming language for building applications on .NET."
+  },
+  {
     name: "MySQL",
     description: "Reliable relational database for structured data.",
   },
