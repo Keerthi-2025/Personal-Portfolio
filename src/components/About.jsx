@@ -20,7 +20,7 @@ const About = () => {
             />
 
             <a
-              href="https://drive.google.com/file/d/1AFS0uyi362eHlyGnWYfHmOgLUrM-yViE/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Ea8a5rlfjm3ttUtiBoJSDaPHKkHT1p42/view?usp=sharing"
               download="KeerthiCV.pdf"
               className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"
               aria-label="Download CV"

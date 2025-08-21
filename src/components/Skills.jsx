@@ -11,7 +11,8 @@ const skills = [
   },
   {
     name:"C#",
-    description:"A modern, object-oriented programming language for building applications on .NET."
+    description:"A modern, object-oriented programming language for building applications on .NET.",
+   
   },
   {
     name: "MySQL",
