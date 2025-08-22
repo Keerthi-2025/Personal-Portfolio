@@ -11,13 +11,10 @@ Check out my live portfolio here: keerthip.vercel.app
 
 Follow these steps to clone and run the portfolio locally:
 
-**Clone the repository**  git clone https://github.com/Keerthi-2025/Personal-Portfolio.git
+**Clone the repository** :    git clone https://github.com/Keerthi-2025/Personal-Portfolio.git
 
-**Go to the project folder**  
-cd Personal-Portfolio
+**Go to the project folder**  : cd Personal-Portfolio
 
-**Install dependencies**
-npm install (or yarn)
+**Install dependencies** : npm install (or yarn)
 
-**Run the project locally**
-npm run dev (or yarn dev)
+**Run the project locally**  : npm run dev (or yarn dev)
