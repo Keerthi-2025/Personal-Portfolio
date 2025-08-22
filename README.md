@@ -1,16 +1,23 @@
-# Keerthi's Portfolio
-
+**Keerthi's Portfolio**
 Welcome to my personal portfolio website!
 
-## About Me
-I'm Keerthi, a passionate web developer with experience in building dynamic and responsive websites.
 
-## Portfolio
-Check out my live portfolio here: [keerthip.vercel.app](https://keerthip.vercel.app)
+**🌐 Portfolio**
+Check out my live portfolio here: keerthip.vercel.app
 
 
-## Skills
-- SpringBoot, HTML, CSS, JavaScript
-- React, Postman, MySQL, C, C#
-- Git, GitHub
 
+**📂 How to Clone and Run**
+
+Follow these steps to clone and run the portfolio locally:
+
+**Clone the repository**  git clone https://github.com/Keerthi-2025/Personal-Portfolio.git
+
+**Go to the project folder**  
+cd Personal-Portfolio
+
+**Install dependencies**
+npm install (or yarn)
+
+**Run the project locally**
+npm run dev (or yarn dev)
