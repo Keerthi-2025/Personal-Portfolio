@@ -20,7 +20,7 @@ const Hero = () => {
             Keerthi RH
           </h1>
           <p className="mb-4 leading-8 text-gray-300">
-            I'm Full Stack Developer 
+            Full Stack Developer & UI/UX Enthusiast
           </p>
 
           {/* Social Links */}

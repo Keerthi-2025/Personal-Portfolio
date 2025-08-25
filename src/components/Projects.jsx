@@ -17,7 +17,7 @@ const projects = [
     live: "https://github.com/Keerthi-2025/todoapp",
   },
   {
-    title: "Task Manager App",
+    title: "Emoji-Text Detection App",
     description:"This project focuses on detecting emotions from textual input and suggesting appropriate emojis to enhance communication. By leveraging machine learning techniques, it bridges the gap between emotional expression and textual communication.",
     tech: ["Python", "Scikit-learn", "Streamlit","Altair"],
     github: "https://github.com/Keerthi-2025/Emoji_Text_Detection_Application",
