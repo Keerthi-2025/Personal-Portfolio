@@ -23,6 +23,13 @@ const projects = [
     github: "https://github.com/Keerthi-2025/Emoji_Text_Detection_Application",
     live: "https://emojidetection.streamlit.app/",
   },
+   {
+    title: "TimeFrame – Responsive Watch Showcase Design",
+    description:"This project is a UI/UX design prototype built in Figma, inspired by industry-standard design practices.It showcases a responsive streaming-style platform where users can explore three different types of watches, each available in three color combinations.",
+    tech: ["Python", "Scikit-learn", "Streamlit","Altair"],
+    github: "https://github.com/Keerthi-2025/Emoji_Text_Detection_Application",
+    live: "https://emojidetection.streamlit.app/",
+  },
 ];
 
 const Projects = () => {
