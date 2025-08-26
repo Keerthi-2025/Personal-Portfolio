@@ -26,9 +26,9 @@ const projects = [
    {
     title: "TimeFrame – Responsive Watch Showcase Design",
     description:"This project is a UI/UX design prototype built in Figma, inspired by industry-standard design practices.It showcases a responsive streaming-style platform where users can explore three different types of watches, each available in three color combinations.",
-    tech: ["Python", "Scikit-learn", "Streamlit","Altair"],
+    tech: ["Figma", "Curve Text", "Phosphor Icons","Prototyping","Smart Animate"],
     github: "https://github.com/Keerthi-2025/Emoji_Text_Detection_Application",
-    live: "https://emojidetection.streamlit.app/",
+    live: "https://drive.google.com/file/d/15GETkviPm28gSYdhrigNf6M5b6DrleC0/view?usp=drive_link",
   },
 ];
 
