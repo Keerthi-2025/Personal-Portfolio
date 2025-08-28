@@ -45,10 +45,20 @@ const Hero = () => {
 
           {/* Action Buttons */}
           <div className="flex justify-center flex-wrap gap-4 mt-5">
-            <button className="inline-flex text-black bg-lime-400 py-2 px-6 rounded text-lg font-medium hover:bg-lime-500 transition-all duration-300">
+            {/* <button className="inline-flex text-black bg-lime-400 py-2 px-6 rounded text-lg font-medium hover:bg-lime-500 transition-all duration-300">
+              View Projects
+            </button> */}
+
+            <button
+              onClick={() => document.getElementById("projects").scrollIntoView({ behavior: "smooth" })}
+              className="inline-flex text-black bg-lime-400 py-2 px-6 rounded text-lg font-medium hover:bg-lime-500 transition-all duration-300">
               View Projects
             </button>
-            <button className="inline-flex text-lime-400 bg-white py-2 px-6 rounded text-lg font-medium hover:bg-lime-500 hover:text-black transition-all duration-300">
+
+
+            <button
+            onClick={ ()=>document.getElementById("contact").scrollIntoView({behavior:"auto"})}
+            className="inline-flex text-lime-400 bg-white py-2 px-6 rounded text-lg font-medium hover:bg-lime-500 hover:text-black transition-all duration-300">
               Contact Me
             </button>
           </div>
