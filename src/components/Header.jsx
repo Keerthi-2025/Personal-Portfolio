@@ -108,7 +108,7 @@ const Header = () => {
             </ul>
           </div>
           <div className="mt-10 ml-10">
-            <button href="https://drive.google.com/file/d/1AFS0uyi362eHlyGnWYfHmOgLUrM-yViE/view?usp=sharing"className="white-filled-btn">Download cv</button>
+            <button href="https://drive.google.com/file/d/122896Z-2dTQodWoSI2ymAW0kj1i9CAmF/view?usp=sharing"className="white-filled-btn">Download cv</button>
           </div>
         </div>
       </div>
