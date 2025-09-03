@@ -28,6 +28,12 @@ const certifications = [
     title:"Agile Project Management By HP ",
     description:"Gained hands-on knowledge in iterative & incremental development, and applying Agile frameworks like Scrum and Kanban to enhance project execution and teamwork.",
     link:"https://drive.google.com/file/d/1A9KTsbwEe-EsZfntZgRTyaSr2NsBsZlq/view?usp=drive_link"
+  },
+  {
+    title:"Introduction to Cybersecurity – Cisco Networking Academy ",
+    description:"Gained hands-on knowledge in iterative & incremental development, and applying Agile frameworks like Scrum and Kanban to enhance project execution and teamwork.",
+    link:"https://drive.google.com/file/d/1VPhpDFlCWC7UpvHcG7xO7MoZQLFyeyPA/view?usp=drive_link"
+
   }
 ];
 
