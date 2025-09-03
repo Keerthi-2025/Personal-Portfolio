@@ -31,7 +31,7 @@ const certifications = [
   },
   {
     title:"Introduction to Cybersecurity – Cisco Networking Academy ",
-    description:"Gained hands-on knowledge in iterative & incremental development, and applying Agile frameworks like Scrum and Kanban to enhance project execution and teamwork.",
+    description:"Successfully completed certification program focused on foundational cybersecurity concepts, digital safety, and defense strategies.",
     link:"https://drive.google.com/file/d/1VPhpDFlCWC7UpvHcG7xO7MoZQLFyeyPA/view?usp=drive_link"
 
   }
