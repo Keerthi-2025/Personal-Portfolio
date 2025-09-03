@@ -3,7 +3,7 @@ Welcome to my personal portfolio website!
 
 
 **🌐 Portfolio**
-Check out my live portfolio here: keerthip.vercel.app
+Check out my live portfolio here: https://keerthip.vercel.app
 
 
 
