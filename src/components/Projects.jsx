@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
@@ -29,6 +28,13 @@ const projects = [
     tech: ["Figma", "Curve Text", "Phosphor Icons","Prototyping","Smart Animate"],
     github: "https://github.com/Keerthi-2025/TimeFrame",
     live: "https://drive.google.com/file/d/15GETkviPm28gSYdhrigNf6M5b6DrleC0/view?usp=drive_link",
+  },
+  {
+    title: "Full Stack Real Estate Web Application",
+    description:"A full-stack real estate application built using MongoDB, Express, React, and Node.js (MERN Stack). This project replicates features including authentication, CRUD operations, and advanced search functionality.",
+    tech: ["React js", "MongoDB", "Express js","Vs Code","OAuth"],
+    github: "https://github.com/Keerthi-2025/Hotel-Booking",
+    live: "",
   },
 ];
 
