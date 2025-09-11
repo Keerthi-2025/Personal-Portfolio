@@ -32,9 +32,16 @@ const projects = [
   {
     title: "Full Stack Real Estate Web Application",
     description:"A full-stack real estate application built using MongoDB, Express, React, and Node.js (MERN Stack). This project replicates features including authentication, CRUD operations, and advanced search functionality.",
-    tech: ["React js", "MongoDB", "Express js","Vs Code","OAuth"],
+    tech: ["React js", "MongoDB", "Express js","VS Code","OAuth"],
     github: "https://github.com/Keerthi-2025/Hotel-Booking",
     live: "",
+  },
+  {
+    title:"CravyKitchen",
+    description:"A fully responsive food delivery landing page featuring smooth AOS animations, hero, restaurant showcase, categories, reviews, and mobile app preview.Includes an auto-sliding review carousel with navigation and a scroll-to-top button for seamless navigation.",
+    tech:["Next.js", "Tailwind CSS v4", "AOS", "VS Code", "next-themes","Vercel"],
+    github:"https://github.com/Keerthi-2025/CravyKitchen/",
+    live:"https://cravy-kitchen.vercel.app/"
   },
 ];
 
