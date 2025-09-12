@@ -60,7 +60,7 @@ const Header = () => {
                     </li>
                   ))}
                 </ul>
-                <a href="https://drive.google.com/file/d/10mptoHgv95MbLQlCbC2-AWw2-Te9G8yy/view?usp=sharing" download="KeerthiCV.pdf" className="outline-btn hidden md:block">
+                <a href="https://drive.google.com/file/d/1X1UOmkwVQ-ZVn-dlX4zMCwOkjafuQXOD/view?usp=drive_link" download="KeerthiCV.pdf" className="outline-btn hidden md:block">
                   Download cv
                 </a>
                 <button
