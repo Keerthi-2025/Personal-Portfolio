@@ -50,6 +50,15 @@ const projects = [
     github:"https://github.com/Keerthi-2025/PokeLab",
     live:"https://github.com/Keerthi-2025/PokeLab"
 
+  },
+  {
+
+    title:"PokeLab",
+    description:"A fully responsive food delivery landing page featuring smooth AOS animations, hero, restaurant showcase, categories, reviews, and mobile app preview.Includes an auto-sliding review carousel with navigation and a scroll-to-top button for seamless navigation.",
+    tech:["SpringBoot", "IntelliJ", "Docker", "MVC", "POstman","MongoDB"],
+    github:"https://github.com/Keerthi-2025/PokeLab",
+    live:"https://pixel-aura-kappa.vercel.app/"
+
   }
 ];
 
