@@ -54,9 +54,9 @@ const projects = [
   {
 
     title:"PixelAura",
-    description:"A fully responsive food delivery landing page featuring smooth AOS animations, hero, restaurant showcase, categories, reviews, and mobile app preview.Includes an auto-sliding review carousel with navigation and a scroll-to-top button for seamless navigation.",
-    tech:["Shadcnt", "VS Code", "Next JS", "Typescript", "Tailwind CSS","next-themes", "Vercel"],
-    github:"https://github.com/Keerthi-2025/PokeLab",
+    description:"Build a React-based AI image generator using the OpenAI API by setting up API keys, sending text prompts, and displaying generated image URLs with a smooth user interface.",
+    tech:["Shadcn", "VS Code", "Next JS", "Typescript", "Tailwind CSS","next-themes", "Vercel"],
+    github:"https://github.com/Keerthi-2025/PixelAura",
     live:"https://pixel-aura-kappa.vercel.app/"
 
   }
