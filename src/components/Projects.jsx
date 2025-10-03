@@ -54,7 +54,7 @@ const projects = [
   {
 
     title:"PixelAura",
-    description:"Build a React-based AI image generator using the OpenAI API by setting up API keys, sending text prompts, and displaying generated image URLs with a smooth user interface.",
+    description:"An AI-powered image generation web app built with Next.js.This project integrates a free AI Text-to-Image API from Rapid API, enabling users to generate images from text prompts",
     tech:["Shadcn", "VS Code", "Next JS", "Typescript", "Tailwind CSS","next-themes", "Vercel"],
     github:"https://github.com/Keerthi-2025/PixelAura",
     live:"https://pixel-aura-kappa.vercel.app/"
