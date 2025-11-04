@@ -63,7 +63,7 @@ const projects = [
 
   {
 
-    title:"PixelAura",
+    title:"TaskMind",
     description:"An AI-powered image generation web app built with Next.js.This project integrates a free AI Text-to-Image API from Rapid API, enabling users to generate images from text prompts",
     tech:["Shadcn", "VS Code", "Next JS", "Typescript", "Tailwind CSS","next-themes", "Vercel"],
     github:"https://github.com/Keerthi-2025/PixelAura",
