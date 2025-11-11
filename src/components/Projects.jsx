@@ -63,7 +63,7 @@ const projects = [
 
   {
 
-    title:"TaskMind",
+    title:"TeamAxis",
     description:"This is a role-based task management system built for team productivity. Admins can create and assign projects, monitor task status, and review user progress. Users can access their assigned tasks, update to-do items, and manage attachments related to each task.",
     tech:["MERN", "VS Code", "Javascript",  "Tailwind CSS","next-themes", "Vercel"],
     github:"https://github.com/Keerthi-2025/Task-Manager-Repo",
