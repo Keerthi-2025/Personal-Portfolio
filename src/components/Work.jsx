@@ -7,7 +7,7 @@ companyLogo:
 "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
 title: "Associate, ML Data Operations",
 company: "Amazon, Bangalore, India",
-duration: "January 2026 – April 2026",
+duration: "January 2026 – Present",
 mode: "On-site",
 responsibilities: [
 "Performed data validation and quality checks on multimedia datasets used for machine learning systems.",
@@ -85,11 +85,11 @@ return ( <section
  > <div className="max-w-6xl mx-auto"> <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-6 bg-gradient-to-r from-lime-400 to-emerald-500 bg-clip-text text-transparent">
 Experience </h2>
 
-```
-    <p className="text-center text-gray-300 max-w-3xl mx-auto mb-16 text-lg">
+
+    {/* <p className="text-center text-gray-300 max-w-3xl mx-auto mb-16 text-lg">
       Building modern solutions, learning every day, and pushing limits
       with code.
-    </p>
+    </p> */}
 
     <div className="flex flex-col gap-12">
       {experiences.map((exp, index) => (
